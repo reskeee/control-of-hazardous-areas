@@ -32,5 +32,5 @@ B = (100, 100)
 C = (0, 0)
 D = (100, 0)
 
-print(get_coords('poly_vertex'))
+# print(get_coords('poly_vertex'))
 # print(create_dots_array(A, B, C, D))

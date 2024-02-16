@@ -4,10 +4,10 @@ from ultralytics import YOLO
 from help import get_coords
 from sympy import Point, Polygon
 
-
 model = YOLO('yolov8n')
 
-cap = cv2.VideoCapture('PXL_20231205_031521968.TS~2_new.mp4')
+cap = cv2.VideoCapture('test.mp4')
+# cap = cv2.VideoCapture('PXL_20231205_031521968.TS~2_new.mp4')
 # cap = cv2.VideoCapture('PXL_20231202_044440610.TS~2_CUT.mp4')
 # cap = cv2.VideoCapture('PXL_20231202_044440610.TS~2.mp4')
 
