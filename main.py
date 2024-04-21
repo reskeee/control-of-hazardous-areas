@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog
 from PyQt5 import uic
 import sys
-from main1 import predict
+from prediction import predict
 from colorama import Back
 
 
